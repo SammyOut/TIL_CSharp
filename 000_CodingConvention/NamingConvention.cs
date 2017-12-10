@@ -9,6 +9,7 @@ public class NamingConvention
     {
         // 변수 이름은 camelCase를 사용한다.
         int goodVar = 10;
+
         //boolean 변수, 속성, 함수에는 is 또는 유사한 접두어(has, can, should)를 붙인 이름을 사용한다.
         bool isGoodVar = true;
     }
