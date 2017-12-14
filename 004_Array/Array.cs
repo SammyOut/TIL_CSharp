@@ -29,8 +29,8 @@ public class Array
         string text = "Hello World!";
 
         // string 형도 배열이므로 인덱스로 접근이 가능하다.
-        Console.WriteLine(text[0]);
-        Console.WriteLine(text[4]);
+        Console.WriteLine("\ntext[0]: " + text[0]);
+        Console.WriteLine("text[4]: " + text[4]);
 
         // 2차원 배열은 대괄호에 ,를 넣어 선언한다.
         int[,] int2dArray = new int[3, 5]
@@ -41,6 +41,7 @@ public class Array
         };
 
         // 2차원 배열도 인덱스로 접근이 가능하다.
-        Console.WriteLine(int2dArray[0, 2]);
+        Console.WriteLine("\nint2dArray[0, 2]: " + int2dArray[0, 2]);
+        Console.ReadKey();
     }
 }
